@@ -1,0 +1,8 @@
+config:
+  pulumi-azure-mssql:environment: dev
+  pulumi-azure-mssql:databaseServerName: myDatabaseServer
+  pulumi-azure-mssql:appName: myApp
+  pulumi-azure-mssql:databaseName: mydatabaseName
+  pulumi-azure-mssql:location: us-west
+  azure:subscriptionId: 00000000-0000-0000-0000-0000000000
+  azure-native:subscriptionId: 00000000-0000-0000-0000-0000000000

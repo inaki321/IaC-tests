@@ -1,3 +1,8 @@
+variable "subscriptionID" {
+  description = "The name of my sql application"
+  type        = string
+}
+
 variable "appName" {
   description = "The name of my sql application"
   type        = string

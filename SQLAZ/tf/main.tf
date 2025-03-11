@@ -1,5 +1,6 @@
 provider "azurerm" {
   features {}
+  subscription_id = var.subscriptionID # OVERWRITE ->  terraform apply -var="subscriptionID=your-overridden-id"
 }
 
 # fetch my resource group and key vault secret (fetch location, secret, name, data)
